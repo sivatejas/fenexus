@@ -1,7 +1,7 @@
 
 <project name="salesforce" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
 
-    <taskdef resource="net/sf/antcontrib/antlib.xml">
+    <taskdef uri="antlib:com.salesforce" resource="com/salesforce/antlib.xml">
         <classpath>
           <pathelement location="./lib/ant-salesforce.jar"/>
         </classpath>
