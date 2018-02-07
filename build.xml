@@ -6,9 +6,9 @@
     <property environment="env"/>
 
     <target name="deployDontRunTests">
-      <sf:deploy username="${env.SFUSER}" 
-        password="${env.SFPASS}${env.SFTOKEN}" 
-        serverurl="${env.SF_SANDBOXURL}" 
+      <sf:deploy username="sivateja.surabathini@fireeye.com.sivapoc" 
+        password="jackso100.oLz4tWEQEg4GOTAe5bCilhvrk" 
+        serverurl="http://test.salesforce.com" 
         runAllTests="false"
         logType="Detail"
         deployRoot="src"/>
