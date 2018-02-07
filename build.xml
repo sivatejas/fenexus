@@ -1,0 +1,9 @@
+<project name="Salesforce" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
+
+  <property environment="env"/>
+
+  <target name="deploy">
+    <sf:deploy username="${env.SFUSER}" password="${env.SFPASS}${env.SFTOKEN}" serverurl="${env.SF_SANDBOXURL}" deployRoot="../src" runAllTests="false" maxPoll="10000"/>
+  </target>
+
+</project>
