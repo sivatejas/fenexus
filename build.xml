@@ -1,5 +1,5 @@
 
-<project name="salesforce" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
+<project name="salesforce" basedir="." xmlns:sf="antlib:com.salesforce">
 
     <taskdef uri="antlib:com.salesforce" resource="com/salesforce/antlib.xml" classPath="lib/ant-salesforce.jar" />
 
