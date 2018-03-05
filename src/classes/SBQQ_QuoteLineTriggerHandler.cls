@@ -8,7 +8,7 @@
 * @revision(s) : 
 *
 ********************************************************************************************/
-//Testing CI Deploy - Siva
+//Testing CI Deploy
 public class SBQQ_QuoteLineTriggerHandler extends TriggerHandler{
 
     private Boolean isDisabled = false;
